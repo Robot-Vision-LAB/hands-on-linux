@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  sandbox:
+    image: "rvl:hand-on-linux"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - $PWD:/hands-on-linux
+    working_dir: /hands-on-linux
+    ipc: host
+    network_mode: host
