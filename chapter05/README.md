@@ -1,0 +1,17 @@
+### CHAPTER 5 파일 다루기 고급편
+- 긴 파일 내용 표시하기_more, less
+- 파일 앞부분 표시하기_head
+- 파일 끝부분 표시하기_tail
+- 파일 정렬하기_sort
+- 중복 내용을 제거해서 표시하기_uniq
+- 파일 내 문자열 검색하기_grep
+- 텍스트 파일 길이 조사하기_wc
+- 두 파일 차이점 찾기_diff
+- 파일 소유자, 소속 그룹 변경하기_chown, chgrp
+- 파일 권한 변경하기_chmod
+- 파일 압축하고 풀기_gzip, gunzip, bzip2, bunzip2, xz, unxz
+- 압축 파일 내용 출력하기_zcat, bzcat, xzcat
+- 파일 묶고 풀기_tar
+- 파일에 별명 붙이기_ln
+- 파일 찾기_find
+- 파일 문자 코드 변경하기_iconv
