@@ -12,6 +12,15 @@ RUN apt-get -y update && apt-get install -y \
 
 # zsh install.
 RUN chsh -s $(which zsh)
-RUN sh -c "$(wget <https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh> -O -)"
-RUN git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions --depth=1 
+
+# oh-my-zsh setting.
+RUN curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.5/zsh-in-docker.sh)" -- \
+    -t robbyrussell \
+    -p git \
+    -p ssh-agent \
+    -p https://github.com/zsh-users/zsh-autosuggestions \
+    -p https://github.com/zsh-users/zsh-completions
+
+COPY .zshrc ~/.zshrc
 
