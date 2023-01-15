@@ -35,7 +35,7 @@ graph LR
 <br>
 
 ## 목차
-### CHAPTER 1 리눅스 기본 조작법
+### [CHAPTER 1 리눅스 기본 조작법](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter01/README.md)
 ### CHAPTER 2 파일 다루기
 ### CHAPTER 3 프로그램 관리하기
 ### CHAPTER 4 사용자·시스템 정보 표시, 변경하기
