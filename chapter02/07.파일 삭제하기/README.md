@@ -1,0 +1,35 @@
+# 파일 삭제하기
+
+파일을 삭제하려면 rm 명령어를 사용합니다.
+
+## 주요 옵션
+
+|옵션|설명|
+|----|---|
+| -i | 삭제여부를 사용자에게 확인                 |
+| -f | -i 옵션과 반대로 사용자 확인 없이 모두 삭제 |
+
+## 사용 예
+
+file 파일을 삭제합니다.
+```
+$ rm file
+```
+
+file1, file2, file3 파일을 한꺼번에 삭제합니다.
+```
+$ rm -r file1 file2 file3
+```
+
+
+## 실습
+```
+$ cd maltman
+
+$ rm alcohol 
+
+$ rm drink rum 
+
+$ cp cornfield/cocktail .
+$ rm -i cocktail
+```
