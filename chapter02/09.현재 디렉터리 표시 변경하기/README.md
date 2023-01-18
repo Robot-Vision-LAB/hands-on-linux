@@ -18,22 +18,3 @@ $ cd dir
 ```
 cd 
 ```
-
-## 실습
-```
-$ pwd
-$ cd barley
-$ pwd
-
-$ pwd
-$ cd
-$ pwd
-
-$ pwd
-$ cd barley
-$ pwd
-$ cd ~/maltman/cornfield
-$ pwd
-$ cd
-$ pwd
-```

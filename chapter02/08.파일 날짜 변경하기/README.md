@@ -27,11 +27,3 @@ $ touch -t 202001312359 file
 ```
 $ touch file
 ```
-
-
-## 실습
-```
-$ touch cornfield/
-
-$ touch -t 202011010203 cornfield/
-```

@@ -20,16 +20,3 @@ file1, file2, file3 파일을 한꺼번에 삭제합니다.
 ```
 $ rm -r file1 file2 file3
 ```
-
-
-## 실습
-```
-$ cd maltman
-
-$ rm alcohol 
-
-$ rm drink rum 
-
-$ cp cornfield/cocktail .
-$ rm -i cocktail
-```
