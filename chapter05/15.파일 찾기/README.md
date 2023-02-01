@@ -18,3 +18,20 @@
 | -exec *command* [*arg*] \\; | 검색 결과로 *command* 명령어를 실행, 인수 *arg*에 {}를 지정하면 검색 결과가 치환되어 들어감 |
 | -execdir *command* [*arg*] \\; | -exec 옵션과 같지만 처리 대상 파일이 존재하는 디렉터리로 이동해서 *command* 명령어를 실행한 결과가 됨 |
 | -ok *command* [*arg*] \\; | -exec 옵션과 같지만 *command* 명령어를 실행하기 전에 실행 여부를 확인 |
+
+## 사용 예
+dir 디렉터리 이하를 검색해서 파일명이 filename인 파일을 찾기
+```
+$ find dir -name filename -print
+```
+dir 디렉터리 이하를 검색해서 갱신 시각이 하루 전인 파일을 찾기
+```
+$ find dir -mtime 1 -print
+```
+dir 디렉터리 이하를 검색해서 파일명이 filename인 파일을 찾아서 rm 명령어를 실행
+```
+$ find dir -name filename -exec /bin/rm {} \;
+```
+현재 디렉터리 이하를 검색해서 확장자가 .c인 파일을 찾기
+```
+$ find ./ -regex "./.*\.c$"
