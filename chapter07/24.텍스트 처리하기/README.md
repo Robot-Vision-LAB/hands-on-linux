@@ -32,7 +32,7 @@ rename a.jpeg to a.jpg
 ---
 ~~~shell
 // sed 명령어를 사용하지 않고, 셸에 내장된 문자열 조작 기능을 사용하기
-$ vi test10-1.sh
+$ vi test10-2.sh
 #!/bin/bash
 
 while [$# -gt 0]; do
