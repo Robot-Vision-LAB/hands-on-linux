@@ -50,5 +50,5 @@ traceroute to www.google.com (142.250.207.100), 64 hops max, 52 byte packets
 |-|-|
 |-n|주소를 IP로 표시|
 |-m _maxttl_|최대 TTL을 _maxttl_ 로 설정|
-|-p _port_|UDP 패킷을 port로 전송|
+|-p _port_|UDP 패킷을 _port_ 로 전송|
 |-I|UDP 패킷 대신 ICMP 패킷 전송|
