@@ -15,21 +15,22 @@
 
 ```
 시작 날짜: 2023-01-11
-종료 날짜:
+종료 날짜: 2023-03-05
 ```
 
 </br>
 
 ## 목차
+
 ### [CHAPTER 1 리눅스 기본 조작법](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter01/README.md)
-### CHAPTER 2 파일 다루기
-### CHAPTER 3 프로그램 관리하기
-### CHAPTER 4 사용자·시스템 정보 표시, 변경하기
-### CHAPTER 5 파일 다루기 고급편
-### CHAPTER 6 편리한 명령어 사용법
-### CHAPTER 7 셸과 셸 스크립트 능숙하게 다루기
-### CHAPTER 8 사용자와 시스템 관리하기
-### CHAPTER 9 네트워크 능숙하게 다루기
-### CHAPTER 10 파일 시스템 능숙하게 다루기
-### CHAPTER 11 패키지 설치하기
-### 부록 emacs, vi 에디터와 부트로더
+### [CHAPTER 2 파일 다루기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter02/README.md)
+### [CHAPTER 3 프로그램 관리하기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter03/README.md)
+### [CHAPTER 4 사용자·시스템 정보 표시, 변경하기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter04/README.md)
+### [CHAPTER 5 파일 다루기 고급편](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter05/README.md)
+### [CHAPTER 6 편리한 명령어 사용법](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter06/README.md)
+### [CHAPTER 7 셸과 셸 스크립트 능숙하게 다루기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter07/README.md)
+### [CHAPTER 8 사용자와 시스템 관리하기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter08/README.md)
+### [CHAPTER 9 네트워크 능숙하게 다루기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter09/README.md)
+### [CHAPTER 10 파일 시스템 능숙하게 다루기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter10/README.md)
+### [CHAPTER 11 패키지 설치하기](https://github.com/Robot-Vision-LAB/hands-on-linux/blob/main/chapter11/README.md)
+### ~~부록 emacs, vi 에디터와 부트로더~~
